@@ -1,4 +1,4 @@
-import 'package:chat/screens/loading_screen.dart';
+import 'package:chat/screens/auth_or_app_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoadingScreen(),
+      home: const AuthOrAppScreen(),
     );
   }
 }
