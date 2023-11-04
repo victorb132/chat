@@ -15,6 +15,7 @@ class _AuthScreenState extends State<AuthScreen> {
 
   Future<void> _handleSubmit(AuthFormData formData) async {
     try {
+      if (!mounted) return;
       setState(() => _isLoading = true);
 
       if (formData.isLogin) {
@@ -30,7 +31,9 @@ class _AuthScreenState extends State<AuthScreen> {
     } catch (e) {
       // tratar erro
     } finally {
-      setState(() => _isLoading = false);
+      if (mounted) {
+        setState(() => _isLoading = false);
+      }
     }
   }
 
