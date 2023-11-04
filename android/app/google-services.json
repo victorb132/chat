@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "957376259061",
+    "project_id": "chat-victor-68cef",
+    "storage_bucket": "chat-victor-68cef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957376259061:android:d84a75e5d98065b8d4b6bc",
+        "android_client_info": {
+          "package_name": "br.com.victor.chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8fS3xUHgDzsuTp0c8HOo41oyWIwNBMp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
